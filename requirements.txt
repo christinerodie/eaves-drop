@@ -1,0 +1,5 @@
+pynput
+paramiko
+pysftp
+pyautogui
+pyscreenshot

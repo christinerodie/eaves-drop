@@ -1,0 +1,1947 @@
+INFO:root:remote_dir /root/felix-Linux
+DEBUG:paramiko.transport:starting thread (client mode): 0xf37b8208
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+INFO:root:remote_dir /root/felix-Linux
+DEBUG:paramiko.transport:starting thread (client mode): 0x22591208
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] mkdir(b'/root/felix-Linux', 511)
+INFO:root:remote_dir /root/felix-Linux
+DEBUG:paramiko.transport:starting thread (client mode): 0xce168240
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+INFO:root:remote_dir /root/felix-Linux
+DEBUG:paramiko.transport:starting thread (client mode): 0xcc16d208
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] mkdir(b'/root/felix-Linux', 511)
+INFO:root:remote_dir /root/felix-Linux
+DEBUG:paramiko.transport:starting thread (client mode): 0x7b12a208
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] mkdir(b'/root/felix-Linux', 511)
+DEBUG:paramiko.transport:starting thread (client mode): 0x7e6fe160
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] mkdir(b'/root/felix-Linux/', 511)
+DEBUG:paramiko.transport:starting thread (client mode): 0xd07051d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+INFO:root:uploading logs 2020-02-15
+DEBUG:paramiko.transport:starting thread (client mode): 0xd47631d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+INFO:root:uploading logs 2020-02-15
+DEBUG:paramiko.transport:starting thread (client mode): 0x2f1511d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+INFO:root:uploading logs 2020-02-15
+DEBUG:paramiko.transport:starting thread (client mode): 0xfc551208
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+INFO:root:on_press fn - Key.shift
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'H'
+INFO:root:write-key-to-file - H
+INFO:root:on_press fn - 'e'
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - 'l'
+INFO:root:write-key-to-file - l
+INFO:root:on_press fn - 'l'
+INFO:root:write-key-to-file - l
+INFO:root:on_press fn - 'o'
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'h'
+INFO:root:write-key-to-file - h
+INFO:root:on_press fn - 'o'
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'a'
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 'r'
+INFO:root:write-key-to-file - r
+INFO:root:on_press fn - 'e'
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'y'
+INFO:root:write-key-to-file - y
+INFO:root:on_press fn - 'o'
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'u'
+INFO:root:write-key-to-file - u
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'd'
+INFO:root:write-key-to-file - d
+INFO:root:on_press fn - 'o'
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'i'
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - 'n'
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'g'
+INFO:root:write-key-to-file - g
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'n'
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'o'
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'w'
+INFO:root:write-key-to-file - w
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'a'
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 'n'
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'd'
+INFO:root:write-key-to-file - d
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 't'
+INFO:root:write-key-to-file - t
+INFO:root:on_press fn - 'h'
+INFO:root:write-key-to-file - h
+INFO:root:on_press fn - 'e'
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - 'n'
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'a'
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 'n'
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'd'
+INFO:root:write-key-to-file - d
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'b'
+INFO:root:write-key-to-file - b
+INFO:root:on_press fn - 'm'
+INFO:root:write-key-to-file - m
+INFO:root:on_press fn - 'a'
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 'y'
+INFO:root:write-key-to-file - y
+INFO:root:on_press fn - 'b'
+INFO:root:write-key-to-file - b
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'y'
+INFO:root:write-key-to-file - y
+INFO:root:on_press fn - 'o'
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'u'
+INFO:root:write-key-to-file - u
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - Key.enter
+INFO:root:write-key-to-file - 
+
+INFO:root:on_press fn - Key.esc
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - Key.esc
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - Key.ctrl
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'c'
+INFO:root:write-key-to-file - c
+DEBUG:paramiko.transport:starting thread (client mode): 0x817081d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+INFO:root:uploading logs 2020-02-15
+DEBUG:paramiko.transport:starting thread (client mode): 0x7cd2d160
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+INFO:root:uploading logs 2020-02-15
+INFO:root:#uploading file /tmp/eaves-drop/2020-02-15-keylogs.txt - /root/felix-Linux/keylogs/2020-02-15-keylogs.txt
+DEBUG:paramiko.transport:starting thread (client mode): 0x27da91d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+INFO:root:uploading logs 2020-02-15
+INFO:root:#uploading file /tmp/eaves-drop/2020-02-15-keylogs.txt - /root/felix-Linux/keylogs/2020-02-15-keylogs.txt
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/root/felix-Linux/keylogs/2020-02-15-keylogs.txt', 'wb')
+DEBUG:paramiko.transport:starting thread (client mode): 0xf179c1d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] mkdir(b'/root/felix-Linux/', 511)
+DEBUG:paramiko.transport.sftp:[chan 0] mkdir(b'/root/felix-Linux/keylogs/', 511)
+INFO:root:uploading logs 2020-02-15
+INFO:root:#uploading file /tmp/eaves-drop/2020-02-15-keylogs.txt - /root/felix-Linux/keylogs/2020-02-15-keylogs.txt
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/root/felix-Linux/keylogs/2020-02-15-keylogs.txt', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/root/felix-Linux/keylogs/2020-02-15-keylogs.txt', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs/2020-02-15-keylogs.txt')
+DEBUG:paramiko.transport:starting thread (client mode): 0x56c81160
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] mkdir(b'/root/felix-Linux/', 511)
+DEBUG:paramiko.transport:starting thread (client mode): 0xb3d38208
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport:starting thread (client mode): 0xea375208
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport:starting thread (client mode): 0xd72ee208
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] mkdir(b'/root/felix-Linux', 511)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+DEBUG:paramiko.transport.sftp:[chan 0] mkdir(b'/root/felix-Linux/keylogs', 511)
+INFO:root:uploading logs 2020-02-15
+INFO:root:#uploading file /tmp/eaves-drop/2020-02-15-keylogs.txt - /root/felix-Linux/keylogs/2020-02-15-keylogs.txt
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/root/felix-Linux/keylogs/2020-02-15-keylogs.txt', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/root/felix-Linux/keylogs/2020-02-15-keylogs.txt', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs/2020-02-15-keylogs.txt')
+DEBUG:paramiko.transport:starting thread (client mode): 0x6a562e8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:uploading logs 2020-02-15
+DEBUG:paramiko.transport:starting thread (client mode): 0xa4fd72e8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:uploading logs 2020-02-15
+DEBUG:paramiko.transport:starting thread (client mode): 0x3fdb82b0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:uploading logs 2020-02-15
+DEBUG:paramiko.transport:starting thread (client mode): 0xe646a2b0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:uploading logs 2020-02-15
+DEBUG:paramiko.transport:starting thread (client mode): 0x4c061240
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:uploading logs 2020-02-15
+DEBUG:paramiko.transport:starting thread (client mode): 0x2819a240
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:uploading logs 2020-02-15
+INFO:root:files### ['2020-02-15-keylogs.txt']
+DEBUG:paramiko.transport:starting thread (client mode): 0x9560c2b0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:uploading logs 2020-02-15
+INFO:root:files### ['2020-02-15-keylogs.txt']
+DEBUG:paramiko.transport:starting thread (client mode): 0xe7ddc2e8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:on_press fn - Key.cmd
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - Key.shift
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'M'
+INFO:root:write-key-to-file - M
+INFO:root:on_press fn - 'y'
+INFO:root:write-key-to-file - y
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'n'
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'a'
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 'm'
+INFO:root:write-key-to-file - m
+INFO:root:on_press fn - 'e'
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'i'
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - 's'
+INFO:root:write-key-to-file - s
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'f'
+INFO:root:write-key-to-file - f
+INFO:root:on_press fn - 'e'
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - 'l'
+INFO:root:write-key-to-file - l
+INFO:root:on_press fn - 'i'
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - 'x'
+INFO:root:write-key-to-file - x
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - Key.shift
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'O'
+INFO:root:write-key-to-file - O
+INFO:root:on_press fn - 't'
+INFO:root:write-key-to-file - t
+INFO:root:on_press fn - 'o'
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'o'
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'a'
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 'n'
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'd'
+INFO:root:write-key-to-file - d
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - Key.shift
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'I'
+INFO:root:write-key-to-file - I
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'c'
+INFO:root:write-key-to-file - c
+INFO:root:on_press fn - 'o'
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'm'
+INFO:root:write-key-to-file - m
+INFO:root:on_press fn - 'e'
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'f'
+INFO:root:write-key-to-file - f
+INFO:root:on_press fn - 'r'
+INFO:root:write-key-to-file - r
+INFO:root:on_press fn - 'o'
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'm'
+INFO:root:write-key-to-file - m
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - Key.shift_r
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'E'
+INFO:root:write-key-to-file - E
+INFO:root:on_press fn - 'l'
+INFO:root:write-key-to-file - l
+INFO:root:on_press fn - 'm'
+INFO:root:write-key-to-file - m
+INFO:root:on_press fn - 'i'
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - 'n'
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'a'
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - '.'
+INFO:root:write-key-to-file - .
+INFO:root:on_press fn - Key.esc
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - Key.esc
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'l'
+INFO:root:write-key-to-file - l
+INFO:root:on_press fn - 's'
+INFO:root:write-key-to-file - s
+INFO:root:on_press fn - Key.enter
+INFO:root:write-key-to-file - 
+
+INFO:root:on_press fn - 'c'
+INFO:root:write-key-to-file - c
+INFO:root:on_press fn - 'a'
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 't'
+INFO:root:write-key-to-file - t
+INFO:root:on_press fn - Key.space
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - '2'
+INFO:root:write-key-to-file - 2
+INFO:root:on_press fn - '0'
+INFO:root:write-key-to-file - 0
+INFO:root:on_press fn - Key.tab
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - Key.enter
+INFO:root:write-key-to-file - 
+
+INFO:root:on_press fn - Key.ctrl
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'c'
+INFO:root:write-key-to-file - c
+DEBUG:paramiko.transport:starting thread (client mode): 0x13bc82b0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:uploading logs 2020-02-15
+INFO:root:files### ['2020-02-15-keylogs.txt']
+DEBUG:paramiko.transport:starting thread (client mode): 0xffb942e8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:on_press fn - Key.cmd
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - Key.shift
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'H'
+INFO:root:selected key H
+INFO:root:write-key-to-file - H
+INFO:root:on_press fn - 'e'
+INFO:root:selected key e
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - 'y'
+INFO:root:selected key y
+INFO:root:write-key-to-file - y
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - Key.backspace
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'w'
+INFO:root:selected key w
+INFO:root:write-key-to-file - w
+INFO:root:on_press fn - Key.backspace
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'w'
+INFO:root:selected key w
+INFO:root:write-key-to-file - w
+INFO:root:on_press fn - 'h'
+INFO:root:selected key h
+INFO:root:write-key-to-file - h
+INFO:root:on_press fn - 'a'
+INFO:root:selected key a
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 't'
+INFO:root:selected key t
+INFO:root:write-key-to-file - t
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'i'
+INFO:root:selected key i
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - 's'
+INFO:root:selected key s
+INFO:root:write-key-to-file - s
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'i'
+INFO:root:selected key i
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - Key.backspace
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'y'
+INFO:root:selected key y
+INFO:root:write-key-to-file - y
+INFO:root:on_press fn - 'o'
+INFO:root:selected key o
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'u'
+INFO:root:selected key u
+INFO:root:write-key-to-file - u
+INFO:root:on_press fn - 'r'
+INFO:root:selected key r
+INFO:root:write-key-to-file - r
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'n'
+INFO:root:selected key n
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'a'
+INFO:root:selected key a
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 'm'
+INFO:root:selected key m
+INFO:root:write-key-to-file - m
+INFO:root:on_press fn - 'e'
+INFO:root:selected key e
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'a'
+INFO:root:selected key a
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 'n'
+INFO:root:selected key n
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'd'
+INFO:root:selected key d
+INFO:root:write-key-to-file - d
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'w'
+INFO:root:selected key w
+INFO:root:write-key-to-file - w
+INFO:root:on_press fn - 'h'
+INFO:root:selected key h
+INFO:root:write-key-to-file - h
+INFO:root:on_press fn - 'e'
+INFO:root:selected key e
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - 'r'
+INFO:root:selected key r
+INFO:root:write-key-to-file - r
+INFO:root:on_press fn - 'e'
+INFO:root:selected key e
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'a'
+INFO:root:selected key a
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 'r'
+INFO:root:selected key r
+INFO:root:write-key-to-file - r
+INFO:root:on_press fn - 'e'
+INFO:root:selected key e
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'y'
+INFO:root:selected key y
+INFO:root:write-key-to-file - y
+INFO:root:on_press fn - 'o'
+INFO:root:selected key o
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'u'
+INFO:root:selected key u
+INFO:root:write-key-to-file - u
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'f'
+INFO:root:selected key f
+INFO:root:write-key-to-file - f
+INFO:root:on_press fn - 'r'
+INFO:root:selected key r
+INFO:root:write-key-to-file - r
+INFO:root:on_press fn - 'o'
+INFO:root:selected key o
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'm'
+INFO:root:selected key m
+INFO:root:write-key-to-file - m
+INFO:root:on_press fn - '.'
+INFO:root:selected key .
+INFO:root:write-key-to-file - .
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - Key.shift
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'H'
+INFO:root:selected key H
+INFO:root:write-key-to-file - H
+INFO:root:on_press fn - 'o'
+INFO:root:selected key o
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'w'
+INFO:root:selected key w
+INFO:root:write-key-to-file - w
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'd'
+INFO:root:selected key d
+INFO:root:write-key-to-file - d
+INFO:root:on_press fn - 'o'
+INFO:root:selected key o
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'y'
+INFO:root:selected key y
+INFO:root:write-key-to-file - y
+INFO:root:on_press fn - 'o'
+INFO:root:selected key o
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'u'
+INFO:root:selected key u
+INFO:root:write-key-to-file - u
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'l'
+INFO:root:selected key l
+INFO:root:write-key-to-file - l
+INFO:root:on_press fn - 'i'
+INFO:root:selected key i
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - 'k'
+INFO:root:selected key k
+INFO:root:write-key-to-file - k
+INFO:root:on_press fn - 'e'
+INFO:root:selected key e
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 't'
+INFO:root:selected key t
+INFO:root:write-key-to-file - t
+INFO:root:on_press fn - 'h'
+INFO:root:selected key h
+INFO:root:write-key-to-file - h
+INFO:root:on_press fn - 'i'
+INFO:root:selected key i
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - 's'
+INFO:root:selected key s
+INFO:root:write-key-to-file - s
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'a'
+INFO:root:selected key a
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 'n'
+INFO:root:selected key n
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'd'
+INFO:root:selected key d
+INFO:root:write-key-to-file - d
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 't'
+INFO:root:selected key t
+INFO:root:write-key-to-file - t
+INFO:root:on_press fn - 'h'
+INFO:root:selected key h
+INFO:root:write-key-to-file - h
+INFO:root:on_press fn - 'a'
+INFO:root:selected key a
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 't'
+INFO:root:selected key t
+INFO:root:write-key-to-file - t
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - Key.shift_r
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'G'
+INFO:root:selected key G
+INFO:root:write-key-to-file - G
+INFO:root:on_press fn - '0'
+INFO:root:selected key 0
+INFO:root:write-key-to-file - 0
+INFO:root:on_press fn - 'r'
+INFO:root:selected key r
+INFO:root:write-key-to-file - r
+INFO:root:on_press fn - 'i'
+INFO:root:selected key i
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - 'l'
+INFO:root:selected key l
+INFO:root:write-key-to-file - l
+INFO:root:on_press fn - 'y'
+INFO:root:selected key y
+INFO:root:write-key-to-file - y
+INFO:root:on_press fn - '1'
+INFO:root:selected key 1
+INFO:root:write-key-to-file - 1
+INFO:root:on_press fn - '2'
+INFO:root:selected key 2
+INFO:root:write-key-to-file - 2
+INFO:root:on_press fn - '3'
+INFO:root:selected key 3
+INFO:root:write-key-to-file - 3
+INFO:root:on_press fn - Key.shift_r
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - '#'
+INFO:root:selected key #
+INFO:root:write-key-to-file - #
+INFO:root:on_press fn - '3'
+INFO:root:selected key 3
+INFO:root:write-key-to-file - 3
+INFO:root:on_press fn - Key.enter
+INFO:root:selected key 
+
+INFO:root:write-key-to-file - 
+
+INFO:root:on_press fn - Key.shift_r
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'G'
+INFO:root:selected key G
+INFO:root:write-key-to-file - G
+INFO:root:on_press fn - '0'
+INFO:root:selected key 0
+INFO:root:write-key-to-file - 0
+INFO:root:on_press fn - 'r'
+INFO:root:selected key r
+INFO:root:write-key-to-file - r
+INFO:root:on_press fn - 'i'
+INFO:root:selected key i
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - 'l'
+INFO:root:selected key l
+INFO:root:write-key-to-file - l
+INFO:root:on_press fn - 'y'
+INFO:root:selected key y
+INFO:root:write-key-to-file - y
+INFO:root:on_press fn - '1'
+INFO:root:selected key 1
+INFO:root:write-key-to-file - 1
+INFO:root:on_press fn - '2'
+INFO:root:selected key 2
+INFO:root:write-key-to-file - 2
+INFO:root:on_press fn - '3'
+INFO:root:selected key 3
+INFO:root:write-key-to-file - 3
+INFO:root:on_press fn - Key.shift_r
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - '#'
+INFO:root:selected key #
+INFO:root:write-key-to-file - #
+INFO:root:on_press fn - '#'
+INFO:root:selected key #
+INFO:root:write-key-to-file - #
+INFO:root:on_press fn - Key.enter
+INFO:root:selected key 
+
+INFO:root:write-key-to-file - 
+
+INFO:root:on_press fn - Key.esc
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - Key.esc
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+DEBUG:paramiko.transport:[chan 0] Unhandled channel request "keepalive@openssh.com"
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - <269025043>
+INFO:root:selected key None
+ERROR:pynput.keyboard.Listener:Unhandled exception in listener callback
+Traceback (most recent call last):
+  File "/home/felix/PycharmProjects/eaves-drop/venv/lib/python3.6/site-packages/pynput/_util/__init__.py", line 162, in inner
+    return f(self, *args, **kwargs)
+  File "/home/felix/PycharmProjects/eaves-drop/venv/lib/python3.6/site-packages/pynput/_util/xorg.py", line 458, in _handler
+    self._handle(self._display_stop, event)
+  File "/home/felix/PycharmProjects/eaves-drop/venv/lib/python3.6/site-packages/pynput/keyboard/_xorg.py", line 544, in _handle
+    self.on_press(key)
+  File "/home/felix/PycharmProjects/eaves-drop/venv/lib/python3.6/site-packages/pynput/_util/__init__.py", line 78, in inner
+    if f(*args) is False:
+  File "./start_keylogging.py", line 63, in on_press
+    key = key.strip("'")
+AttributeError: 'NoneType' object has no attribute 'strip'
+DEBUG:paramiko.transport:starting thread (client mode): 0x90a332b0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:uploading logs 2020-02-15
+INFO:root:files### ['2020-02-15-keylogs.txt', '2020-02-15--keylogs.txt']
+DEBUG:paramiko.transport:starting thread (client mode): 0xf7e7a208
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:uploading logs 2020-02-15
+INFO:root:files### ['2020-02-15--keylogs.txt']
+DEBUG:paramiko.transport:starting thread (client mode): 0xdb81c278
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:uploading logs 2020-02-15
+INFO:root:files### ['2020-02-15--keylogs.txt']
+DEBUG:paramiko.transport:starting thread (client mode): 0xe07ff278
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:uploading logs 2020-02-15
+INFO:root:files### ['2020-02-15--keylogs.txt']
+DEBUG:paramiko.transport:starting thread (client mode): 0xf1fe3278
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs')
+INFO:root:uploading logs 2020-02-15
+INFO:root:files### ['2020-02-15--keylogs.txt']
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs/2020-02-15--keylogs.txt')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/root/felix-Linux/keylogs/2020-02-15--keylogs.txt', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/root/felix-Linux/keylogs/2020-02-15--keylogs.txt', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs/2020-02-15--keylogs.txt')
+DEBUG:paramiko.transport:starting thread (client mode): 0x8c58add8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+INFO:root:on_press fn - 'u'
+INFO:root:selected key u
+INFO:root:write-key-to-file - u
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+INFO:root:on_press fn - 'h'
+INFO:root:selected key h
+INFO:root:write-key-to-file - h
+INFO:root:on_press fn - 'o'
+INFO:root:selected key o
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'w'
+INFO:root:selected key w
+INFO:root:write-key-to-file - w
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'a'
+INFO:root:selected key a
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 'r'
+INFO:root:selected key r
+INFO:root:write-key-to-file - r
+INFO:root:on_press fn - 'e'
+INFO:root:selected key e
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'y'
+INFO:root:selected key y
+INFO:root:write-key-to-file - y
+INFO:root:on_press fn - 'o'
+INFO:root:selected key o
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'u'
+INFO:root:selected key u
+INFO:root:write-key-to-file - u
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'd'
+INFO:root:selected key d
+INFO:root:write-key-to-file - d
+INFO:root:on_press fn - 'o'
+INFO:root:selected key o
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'i'
+INFO:root:selected key i
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - 'n'
+INFO:root:selected key n
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'g'
+INFO:root:selected key g
+INFO:root:write-key-to-file - g
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - Key.backspace
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - ','
+INFO:root:selected key ,
+INFO:root:write-key-to-file - ,
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - Key.shift
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'I'
+INFO:root:selected key I
+INFO:root:write-key-to-file - I
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'h'
+INFO:root:selected key h
+INFO:root:write-key-to-file - h
+INFO:root:on_press fn - 'o'
+INFO:root:selected key o
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'p'
+INFO:root:selected key p
+INFO:root:write-key-to-file - p
+INFO:root:on_press fn - 'e'
+INFO:root:selected key e
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'y'
+INFO:root:selected key y
+INFO:root:write-key-to-file - y
+INFO:root:on_press fn - 'o'
+INFO:root:selected key o
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'u'
+INFO:root:selected key u
+INFO:root:write-key-to-file - u
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'a'
+INFO:root:selected key a
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 'r'
+INFO:root:selected key r
+INFO:root:write-key-to-file - r
+INFO:root:on_press fn - 'e'
+INFO:root:selected key e
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'd'
+INFO:root:selected key d
+INFO:root:write-key-to-file - d
+INFO:root:on_press fn - 'o'
+INFO:root:selected key o
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'i'
+INFO:root:selected key i
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - 'n'
+INFO:root:selected key n
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'g'
+INFO:root:selected key g
+INFO:root:write-key-to-file - g
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'c'
+INFO:root:selected key c
+INFO:root:write-key-to-file - c
+INFO:root:on_press fn - Key.backspace
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'g'
+INFO:root:selected key g
+INFO:root:write-key-to-file - g
+INFO:root:on_press fn - 'r'
+INFO:root:selected key r
+INFO:root:write-key-to-file - r
+INFO:root:on_press fn - 'e'
+INFO:root:selected key e
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - 'a'
+INFO:root:selected key a
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 't'
+INFO:root:selected key t
+INFO:root:write-key-to-file - t
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'a'
+INFO:root:selected key a
+INFO:root:write-key-to-file - a
+INFO:root:on_press fn - 'n'
+INFO:root:selected key n
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'd'
+INFO:root:selected key d
+INFO:root:write-key-to-file - d
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'e'
+INFO:root:selected key e
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - 'v'
+INFO:root:selected key v
+INFO:root:write-key-to-file - v
+INFO:root:on_press fn - 'e'
+INFO:root:selected key e
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - 'r'
+INFO:root:selected key r
+INFO:root:write-key-to-file - r
+INFO:root:on_press fn - 'y'
+INFO:root:selected key y
+INFO:root:write-key-to-file - y
+INFO:root:on_press fn - 't'
+INFO:root:selected key t
+INFO:root:write-key-to-file - t
+INFO:root:on_press fn - 'i'
+INFO:root:selected key i
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - 'n'
+INFO:root:selected key n
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'g'
+INFO:root:selected key g
+INFO:root:write-key-to-file - g
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'i'
+INFO:root:selected key i
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'w'
+INFO:root:selected key w
+INFO:root:write-key-to-file - w
+INFO:root:on_press fn - 'o'
+INFO:root:selected key o
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'r'
+INFO:root:selected key r
+INFO:root:write-key-to-file - r
+INFO:root:on_press fn - 'k'
+INFO:root:selected key k
+INFO:root:write-key-to-file - k
+INFO:root:on_press fn - 'i'
+INFO:root:selected key i
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - 'n'
+INFO:root:selected key n
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'g'
+INFO:root:selected key g
+INFO:root:write-key-to-file - g
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'o'
+INFO:root:selected key o
+INFO:root:write-key-to-file - o
+INFO:root:on_press fn - 'u'
+INFO:root:selected key u
+INFO:root:write-key-to-file - u
+INFO:root:on_press fn - 't'
+INFO:root:selected key t
+INFO:root:write-key-to-file - t
+INFO:root:on_press fn - Key.space
+INFO:root:selected key  
+INFO:root:write-key-to-file -  
+INFO:root:on_press fn - 'f'
+INFO:root:selected key f
+INFO:root:write-key-to-file - f
+INFO:root:on_press fn - 'i'
+INFO:root:selected key i
+INFO:root:write-key-to-file - i
+INFO:root:on_press fn - 'n'
+INFO:root:selected key n
+INFO:root:write-key-to-file - n
+INFO:root:on_press fn - 'e'
+INFO:root:selected key e
+INFO:root:write-key-to-file - e
+INFO:root:on_press fn - Key.shift
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - Key.shift_r
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - Key.shift_r
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - '!'
+INFO:root:selected key !
+INFO:root:write-key-to-file - !
+INFO:root:on_press fn - Key.enter
+INFO:root:selected key 
+
+INFO:root:write-key-to-file - 
+
+INFO:root:on_press fn - Key.ctrl
+INFO:root:selected key 
+INFO:root:write-key-to-file - 
+INFO:root:on_press fn - 'c'
+INFO:root:selected key c
+INFO:root:write-key-to-file - c
+DEBUG:paramiko.transport:starting thread (client mode): 0x109c9dd8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+INFO:root:on_press fn - Key.shift
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+INFO:root:on_press fn - 'H'
+INFO:root:on_press fn - 'e'
+INFO:root:on_press fn - 'y'
+INFO:root:on_press fn - Key.space
+INFO:root:on_press fn - 'o'
+INFO:root:on_press fn - 'h'
+INFO:root:on_press fn - 'w'
+INFO:root:on_press fn - Key.space
+INFO:root:on_press fn - 'a'
+INFO:root:on_press fn - 'r'
+INFO:root:on_press fn - 'e'
+INFO:root:on_press fn - Key.space
+INFO:root:on_press fn - 'y'
+INFO:root:on_press fn - 'o'
+INFO:root:on_press fn - 'u'
+INFO:root:on_press fn - Key.space
+INFO:root:on_press fn - 'd'
+INFO:root:on_press fn - 'o'
+INFO:root:on_press fn - 'i'
+INFO:root:on_press fn - 'n'
+INFO:root:on_press fn - 'g'
+INFO:root:on_press fn - Key.space
+INFO:root:on_press fn - 't'
+INFO:root:on_press fn - 'o'
+INFO:root:on_press fn - 'd'
+INFO:root:on_press fn - 'a'
+INFO:root:on_press fn - 'y'
+INFO:root:on_press fn - Key.shift
+INFO:root:on_press fn - '?'
+INFO:root:on_press fn - Key.enter
+INFO:root:on_press fn - Key.ctrl
+INFO:root:on_press fn - 'c'
+DEBUG:paramiko.transport:starting thread (client mode): 0xefcb0320
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:starting thread (client mode): 0x81458320
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs/202002152212.txt')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/root/felix-Linux/keylogs/202002152212.txt', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/root/felix-Linux/keylogs/202002152212.txt', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs/202002152212.txt')
+DEBUG:paramiko.transport:starting thread (client mode): 0xce0ae320
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:starting thread (client mode): 0x235ae668
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:starting thread (client mode): 0xa585a2e8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+INFO:root:on_press fn - Key.shift
+INFO:root:on_press fn - 'H'
+INFO:root:on_press fn - 'e'
+INFO:root:on_press fn - 'y'
+INFO:root:on_press fn - Key.space
+INFO:root:on_press fn - 't'
+INFO:root:on_press fn - 'a'
+INFO:root:on_press fn - 'k'
+INFO:root:on_press fn - 'e'
+INFO:root:on_press fn - Key.space
+INFO:root:on_press fn - 'm'
+INFO:root:on_press fn - 'e'
+INFO:root:on_press fn - Key.space
+INFO:root:on_press fn - 'a'
+INFO:root:on_press fn - 'w'
+INFO:root:on_press fn - 'a'
+INFO:root:on_press fn - 'y'
+INFO:root:on_press fn - Key.space
+INFO:root:on_press fn - 'n'
+INFO:root:on_press fn - 'o'
+INFO:root:on_press fn - 'w'
+INFO:root:on_press fn - Key.enter
+INFO:root:on_press fn - Key.ctrl
+INFO:root:on_press fn - 'c'
+DEBUG:paramiko.transport:starting thread (client mode): 0x6f5912e8
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u7
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.4p1)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'diffie-hellman-group14-sha256', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa', 'rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] server encrypt:['chacha20-poly1305@openssh.com', 'aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes256-gcm@openssh.com'] client mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] server mac:['umac-64-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-256-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-64@openssh.com', 'umac-128@openssh.com', 'hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Attempting public-key auth...
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport.sftp:[chan 0] Opened sftp connection (server version 3)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] normalize(b'.')
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs/202002152217.txt')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/root/felix-Linux/keylogs/202002152217.txt', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/root/felix-Linux/keylogs/202002152217.txt', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs/202002152217.txt')
+INFO:paramiko.transport.sftp:[chan 0] sftp session closed.
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:on_press fn - 'a'
+INFO:root:on_press fn - 'n'
+INFO:root:on_press fn - 'd'
+INFO:root:on_press fn - Key.space
+INFO:root:on_press fn - 'm'
+INFO:root:on_press fn - 'o'
+INFO:root:on_press fn - 'r'
+INFO:root:on_press fn - 'e'
+INFO:root:on_press fn - Key.enter
+INFO:root:on_press fn - Key.ctrl
+INFO:root:on_press fn - 'c'
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs/202002152218.txt')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/root/felix-Linux/keylogs/202002152218.txt', 'wb')
+DEBUG:paramiko.transport.sftp:[chan 0] open(b'/root/felix-Linux/keylogs/202002152218.txt', 'wb') -> 00000000
+DEBUG:paramiko.transport.sftp:[chan 0] close(00000000)
+DEBUG:paramiko.transport.sftp:[chan 0] stat(b'/root/felix-Linux/keylogs/202002152218.txt')
