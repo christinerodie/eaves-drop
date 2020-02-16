@@ -1,5 +1,8 @@
 pynput
 paramiko
 pysftp
-pyautogui
 pyscreenshot
+recorder
+PyAudio
+sounddevice
+scipy
