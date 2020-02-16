@@ -28,12 +28,12 @@ def upload_screenshots(sftp_server):
     sftp_server.close()
 
 
-if __name__ == '__main__':
-    take_screenshot()
-
-
 if len(sys.argv) > 1:
     arg = sys.argv[1]
+
+    if arg == 'start':
+        take_screenshot()
+
     if arg == 'upload':
         sftp_server = sftp_server()
         upload_screenshots(sftp_server)
