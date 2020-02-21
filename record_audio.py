@@ -16,7 +16,7 @@ def record_audio():
     fd = open(bytes(filename), 'wb')
     rec = recorder.Recorder()
     with rec.open(fd, 'wb') as recfile:
-        recfile.record(duration=1200)
+        recfile.record(duration=180)
 
 
 def upload_audios():
@@ -34,7 +34,7 @@ def upload_audios():
             os.unlink(local_filename)
 
 
-def upload_audios_scheduled(sleep=1200):
+def upload_audios_scheduled(sleep=180):
     while True:
         if config.is_online():
             upload_audios()
@@ -48,9 +48,8 @@ if len(sys.argv) == 2:
         record_audio()
 
     if arg == 'upload':
-        sftp_server = sftp_server()
         datetime = datetime.today()
-        upload_audios(datetime, sftp_server)
+        upload_audios()
 
 
 if __name__ == '__main__':

