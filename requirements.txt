@@ -6,3 +6,4 @@ recorder
 PyAudio
 sounddevice
 scipy
+Pillow

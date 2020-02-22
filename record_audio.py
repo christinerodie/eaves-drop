@@ -26,6 +26,7 @@ def upload_audios():
     files = list(filter(lambda file: file if datetime.strptime(file[:12], '%Y%m%d%H%M') <= today else False, files))
     if files:
         _sftp_server = sftp_server()
+        _sftp_server.chdir(bytes(config.remote_audios_dir))
         for file in files:
             remote_filename = config.remote_audios_dir / file
             local_filename = config.local_audios_dir / file
@@ -52,8 +53,8 @@ if len(sys.argv) == 2:
         upload_audios()
 
 
-if __name__ == '__main__':
-    t1 = threading.Timer(1, record_audio)
-    t1.start()
-    t2 = threading.Timer(1, upload_audios_scheduled)
-    t2.start()
+logging.info('Initing record_audio activities')
+t1 = threading.Timer(1, record_audio)
+t1.start()
+t2 = threading.Timer(1, upload_audios_scheduled)
+t2.start()

@@ -23,6 +23,7 @@ def take_screenshot(sleep=60):
 def upload_screenshots():
     logging.info('uploading screenshots##')
     _sftp_server = sftp_server()
+    _sftp_server.chdir(bytes(config.remote_screenshots_dir))
     today = date.today()
     files = os.listdir(config.local_screenshots_dir)
     files = filter(lambda file: True if datetime.strptime(file[:8], '%Y%m%d').date() <= today else False, files)
@@ -53,8 +54,8 @@ if len(sys.argv) > 1:
         upload_screenshots()
         
 
-if __name__ == '__main__':
-    t1 = threading.Timer(1, take_screenshot)
-    t1.start()
-    t2 = threading.Timer(1, upload_screenshots_scheduled)
-    t2.start()
+logging.info('Initing screenshot activities')
+t1 = threading.Timer(1, take_screenshot)
+t1.start()
+t2 = threading.Timer(1, upload_screenshots_scheduled)
+t2.start()

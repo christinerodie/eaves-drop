@@ -48,6 +48,7 @@ if is_online():
         if not sftp_server.isdir(bytes(remote_dir)):
             sftp_server.mkdir(bytes(remote_dir))
 
+        sftp_server.chdir(bytes(remote_dir))
         if not sftp_server.exists(bytes(remote_screenshots_dir)):
             sftp_server.mkdir(bytes(remote_screenshots_dir))
 
