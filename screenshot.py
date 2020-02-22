@@ -23,16 +23,16 @@ def take_screenshot(sleep=60):
 def upload_screenshots():
     logging.info('uploading screenshots##')
     _sftp_server = sftp_server()
-    _sftp_server.chdir(bytes(config.remote_screenshots_dir))
+    remote_dir = "/".join([config.remote_dir, config.remote_screenshots_dir])
+    _sftp_server.chdir(remote_dir)
     today = date.today()
     files = os.listdir(config.local_screenshots_dir)
     files = filter(lambda file: True if datetime.strptime(file[:8], '%Y%m%d').date() <= today else False, files)
     for file in files:
         local_file = config.local_screenshots_dir / file
-        remote_file = config.remote_screenshots_dir / file
-
-        if not _sftp_server.exists(bytes(remote_file)):
-            _sftp_server.put(bytes(local_file), bytes(remote_file))
+        remote_file = file
+        if not _sftp_server.exists(remote_file):
+            _sftp_server.put(bytes(local_file), remote_file)
         os.unlink(local_file)
     _sftp_server.close()
     

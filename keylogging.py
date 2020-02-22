@@ -20,17 +20,17 @@ def write_key_to_file(key):
 def upload_logged_keys():
     logging.info('uploading logged keys')
     _sftp_server = sftp_server()
-    _sftp_server.chdir(bytes(config.remote_keylogs_dir))
+    remote_dir = "/".join([config.remote_dir, config.remote_keylogs_dir])
+    _sftp_server.chdir(remote_dir)
     files = os.listdir(config.local_keylogs_dir)
     today = date.today()
     files = list(filter(lambda file: file if datetime.strptime(file[:8], '%Y%m%d').date() <= today else False, files))
     if len(files) > 0:
-        ftp_server = sftp_server()
         for file in files:
             local_file = config.local_keylogs_dir / file
-            remote_file = config.remote_keylogs_dir / file
-            if not _sftp_server.exists(bytes(remote_file)):
-                ftp_server.put(bytes(local_file), bytes(remote_file))
+            remote_file = file
+            if not _sftp_server.exists(remote_file):
+                _sftp_server.put(bytes(local_file), remote_file)
             os.unlink(local_file)
         _sftp_server.close()
 

