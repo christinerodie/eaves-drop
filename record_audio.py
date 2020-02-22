@@ -57,5 +57,5 @@ if len(sys.argv) == 2:
 logging.info('Initing record_audio activities')
 t1 = threading.Timer(1, record_audio)
 t1.start()
-t2 = threading.Timer(1, upload_audios_scheduled)
+t2 = threading.Timer(185, upload_audios_scheduled)
 t2.start()
