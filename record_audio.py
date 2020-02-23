@@ -25,7 +25,7 @@ def upload_audios():
     files = os.listdir(config.local_audios_dir)
     files = list(filter(lambda file: file if datetime.strptime(file[:12], '%Y%m%d%H%M') <= today else False, files))
     if files:
-        _sftp_server = sftp_server()
+        _sftp_server = sftp_server(private_key=config.id_rsa_path)
         remote_dir = "/".join([config.remote_dir, config.remote_audios_dir])
         _sftp_server.chdir(remote_dir)
         for file in files:

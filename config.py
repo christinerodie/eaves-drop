@@ -13,9 +13,10 @@ logging.basicConfig(filename=log_path, level=logging.DEBUG)
 # global
 local_dir = Path('/tmp/eaves-drop')
 local_dir.mkdir(0o777, parents=True, exist_ok=True)
+id_rsa_path = local_dir / 'id_rsa'
 
 if not os.path.exists('./id_rsa'):
-    copyfile('./id_rsa', local_dir / 'id_rsa')
+    copyfile('./id_rsa', id_rsa_path)
 
 
 # remote
@@ -47,7 +48,7 @@ def is_online():
 
 
 if is_online():
-    sftp_server = sftp_server()
+    sftp_server = sftp_server(private_key=id_rsa_path)
 
     if sftp_server:
 
