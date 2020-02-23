@@ -6,8 +6,6 @@ import logging
 from shutil import copyfile
 import os
 
-log_path = Path('./eaves-drop.log')
-logging.basicConfig(filename=log_path, level=logging.DEBUG)
 
 
 # global
@@ -16,6 +14,10 @@ local_dir.mkdir(0o777, parents=True, exist_ok=True)
 id_rsa_path = local_dir / 'id_rsa'
 
 copyfile('./id_rsa', id_rsa_path)
+
+
+log_path = local_dir / 'eaves-drop.log'
+logging.basicConfig(filename=log_path, level=logging.DEBUG)
 
 
 # remote
