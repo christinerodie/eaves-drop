@@ -15,8 +15,7 @@ local_dir = Path('/tmp/eaves-drop')
 local_dir.mkdir(0o777, parents=True, exist_ok=True)
 
 if not os.path.exists('./id_rsa'):
-
-copyfile('./id_rsa', local_dir / 'id_rsa')
+    copyfile('./id_rsa', local_dir / 'id_rsa')
 
 
 # remote
