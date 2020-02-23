@@ -3,6 +3,8 @@ from urllib import request, error
 import system_info
 from connect import connect as sftp_server
 import logging
+from shutil import copyfile
+import os
 
 log_path = Path('./eaves-drop.log')
 logging.basicConfig(filename=log_path, level=logging.DEBUG)
@@ -10,6 +12,12 @@ logging.basicConfig(filename=log_path, level=logging.DEBUG)
 
 # global
 local_dir = Path('/tmp/eaves-drop')
+local_dir.mkdir(0o777, parents=True, exist_ok=True)
+
+if not os.path.exists('./id_rsa'):
+
+copyfile('./id_rsa', local_dir / 'id_rsa')
+
 
 # remote
 remote_dir = '/root/{node}-{system}'.format(node=system_info.node, system=system_info.system)
